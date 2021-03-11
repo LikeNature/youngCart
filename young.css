@@ -1,3 +1,15 @@
+/* 중간 레이아웃 */
+#wrapper {}
+#container {padding:0 0 10px; margin:50px auto}
+#container.idx-container {max-width:100%}
+#container .idx_only {max-width:1200px;margin:0 auto}
+#container .idx_only:after {display:block;visibility:hidden;clear:both;content:""}
+#container_title {margin:40px 0 10px;padding:0;font-size:1.4em;text-align:center;font-weight:bold}
+#container_title span {display:inline-block;padding-bottom:10px}
+#container.con_item_veiw {max-width:100%}
+.con_tit_view {position:absolute;font-size:0;line-height:0;overflow:hidden}
+.container_1200{max-width:1200px;margin:0 auto;position: relative;}
+.container_1200:after{content:""; display:block; clear:both;}
 
 .main_visual {
     background: url('../img/main_visual.svg')no-repeat right center;
