@@ -12,7 +12,6 @@
 .container_1200:after{content:""; display:block; clear:both;}
 
 .main_visual {
-    background: url('../img/main_visual.svg')no-repeat right center;
     background-color: #EDF9F9;
     height: 448px;
 	position: relative;
